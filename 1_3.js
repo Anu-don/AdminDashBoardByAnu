@@ -2,19 +2,18 @@ const toggleBtn = document.getElementById("themeToggle");
 const root = document.documentElement;
 const sidebarBtn = document.getElementById("ToggleSidebar");
 const sidebar = document.getElementById("sidebar");
-const dashbord = document.querySelector(".dashboard");
+const dashboard = document.querySelector(".dashboard");
 
 sidebarBtn.addEventListener("click", () => {
   sidebar.classList.toggle("hide");
-  dashbord.classList.toggle("hide");
+  dashboard.classList.toggle("hide");
 
   if (sidebar.classList.contains("hide")) {
     sidebarBtn.innerHTML = "&gt;";
-
-  }else{
+  } else {
     sidebarBtn.innerHTML = "&lt;";
   }
-})
+});
 
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
