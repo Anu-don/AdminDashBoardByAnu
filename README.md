@@ -21,14 +21,14 @@ A modern, responsive Admin Dashboard built with HTML, CSS, and Vanilla JavaScrip
 ## Getting Started
 
 1.  Clone the repository or download the source code.
-2.  Open `1_3.html` in any modern web browser.
+2.  Open `index.html` in any modern web browser.
 3.  Enjoy exploring the dashboard features!
 
 ## File Structure
 
-- `1_3.html`: The main structure of the dashboard.
-- `1_3.css`: Styling rules, including light/dark theme variables.
-- `1_3.js`: Logic for sidebar toggling and theme switching.
+- `index.html`: The main structure of the dashboard.
+- `style.css`: Styling rules, including light/dark theme variables.
+- `script.js`: Logic for sidebar toggling and theme switching.
 - `assets/`: Directory containing static assets like the author's profile picture.
 
 ## Author
